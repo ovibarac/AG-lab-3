@@ -1,3 +1,24 @@
+/*
+ * Având dat un graf orientat ponderat și un vârf sursă, calculați costul minim de la vârful sursă până la fiecare vârf accesibil din graf.
+ * Implementarea trebuie să fie eficientă din punctul de vedere al memoriei folosite și al timpului de execuție.
+ * (Implementați un algoritm de drum minim în graf: Bellman-Ford, Dijkstra.)
+ */
+
+/*
+Ex in:
+5 7 1
+1 3 4
+1 4 1
+2 1 1
+2 3 4
+3 1 1
+3 4 1
+4 5 1
+
+out:
+0 INF 4 1 2
+ */
+
 #include <iostream>
 #include <fstream>
 #include <queue>
