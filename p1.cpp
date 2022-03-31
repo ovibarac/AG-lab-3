@@ -26,7 +26,7 @@ out:
 
 using namespace std;
 
-ifstream f("graf.txt");
+//ifstream f("graf.txt");
 
 const int MAX = 101;
 const int INF = 1e9;
@@ -84,6 +84,8 @@ bool bellman_ford() {
 }
 
 int main(int argc, char **argv) {
+    //ifstream fin(argv[1]);
+    //ofstream fout(argv[2]);
     citireGraf();
     bellman_ford();
     for (int i = 1; i <= nrV; i++){
